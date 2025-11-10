@@ -2,11 +2,12 @@
 @import "@nuxt/ui";
 
 * {
-  border: 1px solid black;
+  border: .5px solid black;
+  color: black;
 }
 
 body{
   background: white;
-  color: black;
+  
 }
 

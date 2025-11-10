@@ -1,1 +1,0 @@
-<template><UButton icon="i-lucide-sun" variant="subtle">Button</UButton></template>

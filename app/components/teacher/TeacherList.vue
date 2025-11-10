@@ -11,6 +11,9 @@
 </script>
 
 <template>
+
+    <ULink :to="`http://localhost:3000/teachers/new`">Add New Teacher</ULink>
+
     <div 
         v-for="teacher in props.teacherList" 
         :key="teacher.id"

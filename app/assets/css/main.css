@@ -4,12 +4,9 @@
 * {
   border: .5px solid black;
   color: black;
-  margin: 1rem;
-  padding: 1rem;
+  margin: .3rem;
+  padding: .3rem;
+  background: white;
 }
 
-body{
-  background: white;
-  
-}
 

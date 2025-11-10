@@ -1,9 +1,9 @@
 
 
     <template>
-        <h1>Here is the top of the layout</h1>
+        <ULink to="http://localhost:3000/teachers">Teacher's Page</ULink>
         <slot/>
-        <h1>Here is the bottom of the layout</h1>
+        <ULink to="http://localhost:3000/about">About Page</ULink>
     </template>
 
 

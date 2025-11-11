@@ -1,5 +1,5 @@
 
 <template>
-    <h1>Individual teacher page</h1>
+    <h1>Individual student page</h1>
     <StudentProfile/>
 </template>

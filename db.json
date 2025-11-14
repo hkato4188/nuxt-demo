@@ -1,16 +1,6 @@
 {
   "teachers": [
     {
-      "id": "1",
-      "name": "Amanda Smith",
-      "subject": "ELA",
-      "email": "bushjoel@hotmail.com",
-      "classIds": [
-        11,
-        12
-      ]
-    },
-    {
       "id": "2",
       "name": "Lauren Wilson",
       "subject": "Science",
@@ -43,7 +33,7 @@
     {
       "id": "5",
       "name": "Bailey King",
-      "subject": "Math",
+      "subject": "Finance",
       "email": "rsanders@herrera.com",
       "classIds": [
         51,
@@ -68,6 +58,17 @@
       "classIds": [
         31,
         25
+      ]
+    },
+    {
+      "id": "346",
+      "name": "Jen Gerhardt",
+      "subject": "Contracts",
+      "email": "jennyg@trudge.com",
+      "classIds": [
+        45,
+        52,
+        78
       ]
     }
   ],

@@ -1,8 +1,5 @@
-
- <script setup lang="ts">
-    // const { data } = await useFetch('http://localhost:3001/teachers')
+<script setup lang="ts">
     const store = useTeachersStore()
-
     await store.fetchTeachers()
 </script>
 

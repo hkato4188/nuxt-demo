@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import * as v from "valibot"
-import { type FormSubmitEvent } from "@nuxt/ui"
+import type { FormSubmitEvent } from "@nuxt/ui"
 
 const props = defineProps<{
   submitText: string
@@ -17,8 +17,26 @@ const emit = defineEmits<{
   submit: [payload: any]
 }>()
 
-const state = reactive({ ...props.initial })
+// Minimal reactive form state
+const state = reactive({
+  name: props.initial.name,
+  subject: props.initial.subject,
+  email: props.initial.email,
+  classIds: [...props.initial.classIds]
+})
 
+// Separate text field for the comma-separated input
+const classIdsText = ref(props.initial.classIds.join(", "))
+
+// Keep state.classIds in sync with the text input
+watch(classIdsText, (val) => {
+  state.classIds = val
+    .split(",")
+    .map((n) => Number(n.trim()))
+    .filter((n) => !Number.isNaN(n))
+})
+
+// Validation schema uses state
 const schema = v.object({
   name: v.pipe(v.string(), v.minLength(2)),
   subject: v.pipe(v.string(), v.minLength(2)),
@@ -26,23 +44,14 @@ const schema = v.object({
   classIds: v.array(v.number())
 })
 
-const classIdsText = ref(props.initial.classIds.join(", "))
-
-watch(classIdsText, val => {
-  state.classIds = val
-    .split(",")
-    .map(n => Number(n.trim()))
-    .filter(n => !isNaN(n))
-})
-
 function onSubmit(event: FormSubmitEvent<any>) {
+  // event.data is already the validated version of `state`
   emit("submit", event.data)
 }
 </script>
 
 <template>
-  <UForm :schema="schema" :state="state" @submit="onSubmit" class="space-y-4">
-
+  <UForm :schema="schema" :state="state" @submit="onSubmit">
     <UFormField label="Name" name="name">
       <UInput v-model="state.name" />
     </UFormField>
@@ -59,7 +68,7 @@ function onSubmit(event: FormSubmitEvent<any>) {
       <UInput v-model="classIdsText" />
     </UFormField>
 
-    <UButton :loading="loading" type="submit" color="blue">
+    <UButton :loading="loading" type="submit">
       {{ submitText }}
     </UButton>
   </UForm>

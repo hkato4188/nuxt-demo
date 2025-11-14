@@ -12,6 +12,6 @@
         <h1>{{ teacher.name }}</h1>
         <h3>{{ teacher.email }}</h3>
         <p>{{ teacher.subject }}</p>
-        <ULink :to="`http://localhost:3000/teachers/${ teacher.id }`">Link</ULink>
+        <ULink :to="`http://localhost:3000/teachers/${ teacher.id }`">View Profile</ULink>
     </div>
 </template>

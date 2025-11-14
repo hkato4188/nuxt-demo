@@ -80,15 +80,15 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 </script>
 
 <template>
-  <UContainer class="max-w-md mx-auto py-10 space-y-6">
-    <h2 class="text-2xl font-semibold">Edit Teacher</h2>
+  <UContainer>
+    <h2>Edit Teacher</h2>
 
     <div v-if="loading">
       <ULoadingIcon /> Loading teacher details...
     </div>
 
     <div v-else-if="errorMsg">
-      <UAlert color="red">{{ errorMsg }}</UAlert>
+      <UAlert>{{ errorMsg }}</UAlert>
     </div>
 
     <div v-else>

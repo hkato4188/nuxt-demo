@@ -7,13 +7,11 @@
     }
     const props = defineProps<{teacher: Teacher; }>()
 </script>
-
 <template>
-  <h1>{{ teacher.name }}</h1>
-    <p>{{ teacher.subject }}</p>
-    <p>{{ teacher.email }}</p>
-
-    <NuxtLink :to="`/teachers/edit/${teacher.id}`">
-      Edit
-    </NuxtLink>
+    <div>
+        <h1>{{ teacher.name }}</h1>
+        <h3>{{ teacher.email }}</h3>
+        <p>{{ teacher.subject }}</p>
+        <ULink :to="`http://localhost:3000/teachers/${ teacher.id }`">Link</ULink>
+    </div>
 </template>

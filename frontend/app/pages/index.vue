@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 const counter = useState('counter', () => Math.round(Math.random() * 1000))
 const counterTwo = useState('counterTwo', () => Math.round(Math.random() * 1000))
 </script>
@@ -20,6 +20,31 @@ const counterTwo = useState('counterTwo', () => Math.round(Math.random() * 1000)
       +
     </button>
     <button @click="counterTwo--">
+      -
+    </button>
+  </div>
+</template> -->
+<script setup lang="ts">
+const counter = useState('counter', () => Math.round(Math.random() * 1000))
+const secondCounter = useState('secondCounter', () => Math.round(Math.random() * 1000))
+</script>
+
+<template>
+  <div>
+    Counter: {{ counter }}
+    <button @click="counter++">
+      +
+    </button>
+    <button @click="counter--">
+      -
+    </button>
+  </div>
+  <div>
+    Second Counter: {{ secondCounter }}
+    <button @click="secondCounter++">
+      +
+    </button>
+    <button @click="secondCounter--">
       -
     </button>
   </div>

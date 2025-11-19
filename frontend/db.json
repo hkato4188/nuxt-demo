@@ -70,6 +70,17 @@
         52,
         78
       ]
+    },
+    {
+      "id": "224",
+      "name": "Trevor Mooney",
+      "subject": "Economic History",
+      "email": "trevor@upitt.edu",
+      "classIds": [
+        56,
+        84,
+        98
+      ]
     }
   ],
   "classes": [

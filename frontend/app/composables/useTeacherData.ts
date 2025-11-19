@@ -12,7 +12,7 @@ export async function useTeacherData(id: string) {
       })
     }
 
-    return teacher
+    return teacher;
   }
 
   return await useAsyncData(`teacher-${id}`, loadTeacher)

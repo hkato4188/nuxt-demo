@@ -1,17 +1,7 @@
 {
   "teachers": [
     {
-      "id": 1,
-      "name": "Amanda Allen",
-      "subject": "ELA",
-      "email": "bushjoel@hotmail.com",
-      "classIds": [
-        11,
-        12
-      ]
-    },
-    {
-      "id": 2,
+      "id": "2",
       "name": "Lauren Wilson",
       "subject": "Science",
       "email": "fperez@gmail.com",
@@ -21,7 +11,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Amy Marshall",
       "subject": "History",
       "email": "mcbridevictoria@yahoo.com",
@@ -31,7 +21,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Meredith Porter",
       "subject": "Art",
       "email": "hmitchell@hotmail.com",
@@ -41,19 +31,61 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Bailey King",
-      "subject": "Math",
+      "subject": "Finance",
       "email": "rsanders@herrera.com",
       "classIds": [
         51,
         52
       ]
+    },
+    {
+      "id": "323",
+      "name": "Hiro Kato",
+      "subject": "History",
+      "email": "hirok@school.edu",
+      "classIds": [
+        12,
+        23
+      ]
+    },
+    {
+      "id": "679",
+      "name": "Austin Teacher",
+      "subject": "Math",
+      "email": "tryagain@school.edu",
+      "classIds": [
+        31,
+        25
+      ]
+    },
+    {
+      "id": "346",
+      "name": "Jen Gerhardt",
+      "subject": "Contracts",
+      "email": "jennyg@trudge.com",
+      "classIds": [
+        45,
+        52,
+        78
+      ]
+    },
+    {
+      "id": "224",
+      "name": "Trevor Mooney",
+      "subject": "Economic History",
+      "email": "trevor@upitt.edu",
+      "classIds": [
+        56,
+        84,
+        98
+      ]
     }
   ],
   "classes": [
     {
-      "id": 11,
+      "id": "11",
       "name": "ELA 7B",
       "teacherId": 1,
       "studentIds": [
@@ -67,7 +99,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "ELA 7A",
       "teacherId": 1,
       "studentIds": [
@@ -81,7 +113,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Science 7A",
       "teacherId": 2,
       "studentIds": [
@@ -95,7 +127,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Science 8C",
       "teacherId": 2,
       "studentIds": [
@@ -109,7 +141,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "History 7B",
       "teacherId": 3,
       "studentIds": [
@@ -123,7 +155,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "History 7B",
       "teacherId": 3,
       "studentIds": [
@@ -137,7 +169,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": "41",
       "name": "Art 7B",
       "teacherId": 4,
       "studentIds": [
@@ -151,7 +183,7 @@
       ]
     },
     {
-      "id": 42,
+      "id": "42",
       "name": "Art 7A",
       "teacherId": 4,
       "studentIds": [
@@ -165,7 +197,7 @@
       ]
     },
     {
-      "id": 51,
+      "id": "51",
       "name": "Math 7A",
       "teacherId": 5,
       "studentIds": [
@@ -179,7 +211,7 @@
       ]
     },
     {
-      "id": 52,
+      "id": "52",
       "name": "Math 6A",
       "teacherId": 5,
       "studentIds": [
@@ -195,7 +227,7 @@
   ],
   "students": [
     {
-      "id": 1101,
+      "id": "1101",
       "firstName": "Jonathan",
       "lastName": "Johnson",
       "gradeLevel": 8,
@@ -205,7 +237,7 @@
       "weeklyBehaviorScore": 73.56
     },
     {
-      "id": 1102,
+      "id": "1102",
       "firstName": "Sandra",
       "lastName": "Jackson",
       "gradeLevel": 6,
@@ -215,7 +247,7 @@
       "weeklyBehaviorScore": 89.31
     },
     {
-      "id": 1103,
+      "id": "1103",
       "firstName": "Christopher",
       "lastName": "Howard",
       "gradeLevel": 6,
@@ -225,7 +257,7 @@
       "weeklyBehaviorScore": 95.81
     },
     {
-      "id": 1104,
+      "id": "1104",
       "firstName": "James",
       "lastName": "Hill",
       "gradeLevel": 6,
@@ -235,7 +267,7 @@
       "weeklyBehaviorScore": 94.67
     },
     {
-      "id": 1105,
+      "id": "1105",
       "firstName": "Andrew",
       "lastName": "Fernandez",
       "gradeLevel": 8,
@@ -245,7 +277,7 @@
       "weeklyBehaviorScore": 70.38
     },
     {
-      "id": 1106,
+      "id": "1106",
       "firstName": "Jose",
       "lastName": "Lambert",
       "gradeLevel": 6,
@@ -255,7 +287,7 @@
       "weeklyBehaviorScore": 82.06
     },
     {
-      "id": 1107,
+      "id": "1107",
       "firstName": "Kimberly",
       "lastName": "Wilson",
       "gradeLevel": 8,
@@ -265,7 +297,7 @@
       "weeklyBehaviorScore": 83.09
     },
     {
-      "id": 1201,
+      "id": "1201",
       "firstName": "Charles",
       "lastName": "Myers",
       "gradeLevel": 8,
@@ -275,7 +307,7 @@
       "weeklyBehaviorScore": 97.32
     },
     {
-      "id": 1202,
+      "id": "1202",
       "firstName": "Lauren",
       "lastName": "Goodwin",
       "gradeLevel": 6,
@@ -285,7 +317,7 @@
       "weeklyBehaviorScore": 83.23
     },
     {
-      "id": 1203,
+      "id": "1203",
       "firstName": "Michael",
       "lastName": "Guzman",
       "gradeLevel": 7,
@@ -295,7 +327,7 @@
       "weeklyBehaviorScore": 77.07
     },
     {
-      "id": 1204,
+      "id": "1204",
       "firstName": "Marcus",
       "lastName": "Lutz",
       "gradeLevel": 8,
@@ -305,7 +337,7 @@
       "weeklyBehaviorScore": 74.77
     },
     {
-      "id": 1205,
+      "id": "1205",
       "firstName": "Seth",
       "lastName": "Carlson",
       "gradeLevel": 7,
@@ -315,7 +347,7 @@
       "weeklyBehaviorScore": 98.92
     },
     {
-      "id": 1206,
+      "id": "1206",
       "firstName": "Brandon",
       "lastName": "Melton",
       "gradeLevel": 7,
@@ -325,7 +357,7 @@
       "weeklyBehaviorScore": 92.05
     },
     {
-      "id": 1207,
+      "id": "1207",
       "firstName": "Caitlyn",
       "lastName": "Stevens",
       "gradeLevel": 6,
@@ -335,7 +367,7 @@
       "weeklyBehaviorScore": 73.2
     },
     {
-      "id": 2101,
+      "id": "2101",
       "firstName": "Alexandra",
       "lastName": "Mckenzie",
       "gradeLevel": 8,
@@ -345,7 +377,7 @@
       "weeklyBehaviorScore": 81.32
     },
     {
-      "id": 2102,
+      "id": "2102",
       "firstName": "Catherine",
       "lastName": "Oconnor",
       "gradeLevel": 7,
@@ -355,7 +387,7 @@
       "weeklyBehaviorScore": 72.99
     },
     {
-      "id": 2103,
+      "id": "2103",
       "firstName": "Bryan",
       "lastName": "Smith",
       "gradeLevel": 8,
@@ -365,7 +397,7 @@
       "weeklyBehaviorScore": 97.4
     },
     {
-      "id": 2104,
+      "id": "2104",
       "firstName": "Andrew",
       "lastName": "Jackson",
       "gradeLevel": 7,
@@ -375,7 +407,7 @@
       "weeklyBehaviorScore": 99.91
     },
     {
-      "id": 2105,
+      "id": "2105",
       "firstName": "Allison",
       "lastName": "Huffman",
       "gradeLevel": 6,
@@ -385,7 +417,7 @@
       "weeklyBehaviorScore": 92.38
     },
     {
-      "id": 2106,
+      "id": "2106",
       "firstName": "Carolyn",
       "lastName": "King",
       "gradeLevel": 6,
@@ -395,7 +427,7 @@
       "weeklyBehaviorScore": 72.17
     },
     {
-      "id": 2107,
+      "id": "2107",
       "firstName": "Todd",
       "lastName": "Castillo",
       "gradeLevel": 8,
@@ -405,7 +437,7 @@
       "weeklyBehaviorScore": 73.34
     },
     {
-      "id": 2201,
+      "id": "2201",
       "firstName": "Justin",
       "lastName": "Brown",
       "gradeLevel": 8,
@@ -415,7 +447,7 @@
       "weeklyBehaviorScore": 73.55
     },
     {
-      "id": 2202,
+      "id": "2202",
       "firstName": "Victoria",
       "lastName": "Mullins",
       "gradeLevel": 6,
@@ -425,7 +457,7 @@
       "weeklyBehaviorScore": 82.32
     },
     {
-      "id": 2203,
+      "id": "2203",
       "firstName": "Robert",
       "lastName": "Lee",
       "gradeLevel": 7,
@@ -435,7 +467,7 @@
       "weeklyBehaviorScore": 94.98
     },
     {
-      "id": 2204,
+      "id": "2204",
       "firstName": "Susan",
       "lastName": "Richardson",
       "gradeLevel": 7,
@@ -445,17 +477,17 @@
       "weeklyBehaviorScore": 92.05
     },
     {
-      "id": 2205,
+      "id": "2205",
       "firstName": "Christina",
       "lastName": "Green",
       "gradeLevel": 8,
       "classIds": [
         22
       ],
-      "weeklyBehaviorScore": 74.0
+      "weeklyBehaviorScore": 74
     },
     {
-      "id": 2206,
+      "id": "2206",
       "firstName": "Devin",
       "lastName": "Pennington",
       "gradeLevel": 7,
@@ -465,7 +497,7 @@
       "weeklyBehaviorScore": 83.12
     },
     {
-      "id": 2207,
+      "id": "2207",
       "firstName": "Evelyn",
       "lastName": "Gonzalez",
       "gradeLevel": 7,
@@ -475,7 +507,7 @@
       "weeklyBehaviorScore": 85.45
     },
     {
-      "id": 3101,
+      "id": "3101",
       "firstName": "Paul",
       "lastName": "Ross",
       "gradeLevel": 7,
@@ -485,7 +517,7 @@
       "weeklyBehaviorScore": 82.13
     },
     {
-      "id": 3102,
+      "id": "3102",
       "firstName": "Ashley",
       "lastName": "Wilson",
       "gradeLevel": 8,
@@ -495,7 +527,7 @@
       "weeklyBehaviorScore": 97.34
     },
     {
-      "id": 3103,
+      "id": "3103",
       "firstName": "Jill",
       "lastName": "Buchanan",
       "gradeLevel": 8,
@@ -505,7 +537,7 @@
       "weeklyBehaviorScore": 71.55
     },
     {
-      "id": 3104,
+      "id": "3104",
       "firstName": "Teresa",
       "lastName": "Herrera",
       "gradeLevel": 6,
@@ -515,7 +547,7 @@
       "weeklyBehaviorScore": 71.36
     },
     {
-      "id": 3105,
+      "id": "3105",
       "firstName": "Rose",
       "lastName": "Griffin",
       "gradeLevel": 7,
@@ -525,7 +557,7 @@
       "weeklyBehaviorScore": 93.61
     },
     {
-      "id": 3106,
+      "id": "3106",
       "firstName": "Gary",
       "lastName": "Herrera",
       "gradeLevel": 6,
@@ -535,7 +567,7 @@
       "weeklyBehaviorScore": 76.8
     },
     {
-      "id": 3107,
+      "id": "3107",
       "firstName": "Christopher",
       "lastName": "Shelton",
       "gradeLevel": 8,
@@ -545,7 +577,7 @@
       "weeklyBehaviorScore": 82.54
     },
     {
-      "id": 3201,
+      "id": "3201",
       "firstName": "Ian",
       "lastName": "Henderson",
       "gradeLevel": 7,
@@ -555,7 +587,7 @@
       "weeklyBehaviorScore": 90.75
     },
     {
-      "id": 3202,
+      "id": "3202",
       "firstName": "Jerry",
       "lastName": "Brown",
       "gradeLevel": 8,
@@ -565,7 +597,7 @@
       "weeklyBehaviorScore": 94.28
     },
     {
-      "id": 3203,
+      "id": "3203",
       "firstName": "Brian",
       "lastName": "Downs",
       "gradeLevel": 7,
@@ -575,7 +607,7 @@
       "weeklyBehaviorScore": 73.77
     },
     {
-      "id": 3204,
+      "id": "3204",
       "firstName": "Stephanie",
       "lastName": "Powers",
       "gradeLevel": 7,
@@ -585,7 +617,7 @@
       "weeklyBehaviorScore": 76.81
     },
     {
-      "id": 3205,
+      "id": "3205",
       "firstName": "Mario",
       "lastName": "Kerr",
       "gradeLevel": 8,
@@ -595,7 +627,7 @@
       "weeklyBehaviorScore": 99.46
     },
     {
-      "id": 3206,
+      "id": "3206",
       "firstName": "Nicholas",
       "lastName": "Nelson",
       "gradeLevel": 8,
@@ -605,7 +637,7 @@
       "weeklyBehaviorScore": 79.72
     },
     {
-      "id": 3207,
+      "id": "3207",
       "firstName": "Julie",
       "lastName": "Frye",
       "gradeLevel": 7,
@@ -615,7 +647,7 @@
       "weeklyBehaviorScore": 77.61
     },
     {
-      "id": 4101,
+      "id": "4101",
       "firstName": "Gabriel",
       "lastName": "Salas",
       "gradeLevel": 6,
@@ -625,7 +657,7 @@
       "weeklyBehaviorScore": 77.71
     },
     {
-      "id": 4102,
+      "id": "4102",
       "firstName": "Monica",
       "lastName": "Smith",
       "gradeLevel": 7,
@@ -635,7 +667,7 @@
       "weeklyBehaviorScore": 79.06
     },
     {
-      "id": 4103,
+      "id": "4103",
       "firstName": "Jessica",
       "lastName": "Matthews",
       "gradeLevel": 8,
@@ -645,7 +677,7 @@
       "weeklyBehaviorScore": 85.82
     },
     {
-      "id": 4104,
+      "id": "4104",
       "firstName": "Anthony",
       "lastName": "Pope",
       "gradeLevel": 7,
@@ -655,7 +687,7 @@
       "weeklyBehaviorScore": 83.17
     },
     {
-      "id": 4105,
+      "id": "4105",
       "firstName": "Michael",
       "lastName": "Kim",
       "gradeLevel": 7,
@@ -665,7 +697,7 @@
       "weeklyBehaviorScore": 85.55
     },
     {
-      "id": 4106,
+      "id": "4106",
       "firstName": "Gloria",
       "lastName": "Martin",
       "gradeLevel": 7,
@@ -675,7 +707,7 @@
       "weeklyBehaviorScore": 92.09
     },
     {
-      "id": 4107,
+      "id": "4107",
       "firstName": "Danny",
       "lastName": "Lowery",
       "gradeLevel": 6,
@@ -685,7 +717,7 @@
       "weeklyBehaviorScore": 95.49
     },
     {
-      "id": 4201,
+      "id": "4201",
       "firstName": "Regina",
       "lastName": "Johnson",
       "gradeLevel": 8,
@@ -695,7 +727,7 @@
       "weeklyBehaviorScore": 83.41
     },
     {
-      "id": 4202,
+      "id": "4202",
       "firstName": "Barbara",
       "lastName": "Hines",
       "gradeLevel": 6,
@@ -705,7 +737,7 @@
       "weeklyBehaviorScore": 81.04
     },
     {
-      "id": 4203,
+      "id": "4203",
       "firstName": "Tamara",
       "lastName": "Johnston",
       "gradeLevel": 6,
@@ -715,7 +747,7 @@
       "weeklyBehaviorScore": 83.13
     },
     {
-      "id": 4204,
+      "id": "4204",
       "firstName": "Richard",
       "lastName": "Smith",
       "gradeLevel": 8,
@@ -725,7 +757,7 @@
       "weeklyBehaviorScore": 87.17
     },
     {
-      "id": 4205,
+      "id": "4205",
       "firstName": "Kimberly",
       "lastName": "Rodriguez",
       "gradeLevel": 7,
@@ -735,7 +767,7 @@
       "weeklyBehaviorScore": 88.92
     },
     {
-      "id": 4206,
+      "id": "4206",
       "firstName": "Zachary",
       "lastName": "Peterson",
       "gradeLevel": 7,
@@ -745,7 +777,7 @@
       "weeklyBehaviorScore": 88.78
     },
     {
-      "id": 4207,
+      "id": "4207",
       "firstName": "Kurt",
       "lastName": "Sloan",
       "gradeLevel": 8,
@@ -755,17 +787,17 @@
       "weeklyBehaviorScore": 87.97
     },
     {
-      "id": 5101,
+      "id": "5101",
       "firstName": "Joseph",
       "lastName": "Salas",
       "gradeLevel": 7,
       "classIds": [
         51
       ],
-      "weeklyBehaviorScore": 99.0
+      "weeklyBehaviorScore": 99
     },
     {
-      "id": 5102,
+      "id": "5102",
       "firstName": "Elizabeth",
       "lastName": "Stewart",
       "gradeLevel": 7,
@@ -775,7 +807,7 @@
       "weeklyBehaviorScore": 98.55
     },
     {
-      "id": 5103,
+      "id": "5103",
       "firstName": "Marissa",
       "lastName": "Romero",
       "gradeLevel": 7,
@@ -785,7 +817,7 @@
       "weeklyBehaviorScore": 75.07
     },
     {
-      "id": 5104,
+      "id": "5104",
       "firstName": "Jonathon",
       "lastName": "Martin",
       "gradeLevel": 6,
@@ -795,7 +827,7 @@
       "weeklyBehaviorScore": 95.92
     },
     {
-      "id": 5105,
+      "id": "5105",
       "firstName": "Juan",
       "lastName": "Jones",
       "gradeLevel": 8,
@@ -805,7 +837,7 @@
       "weeklyBehaviorScore": 92.77
     },
     {
-      "id": 5106,
+      "id": "5106",
       "firstName": "Jennifer",
       "lastName": "Walker",
       "gradeLevel": 8,
@@ -815,7 +847,7 @@
       "weeklyBehaviorScore": 78.06
     },
     {
-      "id": 5107,
+      "id": "5107",
       "firstName": "Tammy",
       "lastName": "Alvarado",
       "gradeLevel": 6,
@@ -825,7 +857,7 @@
       "weeklyBehaviorScore": 92.23
     },
     {
-      "id": 5201,
+      "id": "5201",
       "firstName": "Michael",
       "lastName": "Vasquez",
       "gradeLevel": 8,
@@ -835,7 +867,7 @@
       "weeklyBehaviorScore": 75.48
     },
     {
-      "id": 5202,
+      "id": "5202",
       "firstName": "David",
       "lastName": "Bowman",
       "gradeLevel": 6,
@@ -845,7 +877,7 @@
       "weeklyBehaviorScore": 94.68
     },
     {
-      "id": 5203,
+      "id": "5203",
       "firstName": "Victor",
       "lastName": "Wang",
       "gradeLevel": 7,
@@ -855,7 +887,7 @@
       "weeklyBehaviorScore": 80.86
     },
     {
-      "id": 5204,
+      "id": "5204",
       "firstName": "Russell",
       "lastName": "Oconnell",
       "gradeLevel": 7,
@@ -865,7 +897,7 @@
       "weeklyBehaviorScore": 97.52
     },
     {
-      "id": 5205,
+      "id": "5205",
       "firstName": "Emily",
       "lastName": "Gonzales",
       "gradeLevel": 6,
@@ -875,7 +907,7 @@
       "weeklyBehaviorScore": 95.07
     },
     {
-      "id": 5206,
+      "id": "5206",
       "firstName": "Andrea",
       "lastName": "Williams",
       "gradeLevel": 8,
@@ -885,7 +917,7 @@
       "weeklyBehaviorScore": 84.59
     },
     {
-      "id": 5207,
+      "id": "5207",
       "firstName": "Kathleen",
       "lastName": "Conway",
       "gradeLevel": 8,

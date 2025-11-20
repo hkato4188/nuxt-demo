@@ -7,6 +7,7 @@
     }
     const props = defineProps<{teacher: Teacher; }>()
 </script>
+
 <template>
     <div>
         <h1>{{ teacher.name }}</h1>

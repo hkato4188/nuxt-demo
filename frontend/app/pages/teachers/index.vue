@@ -5,20 +5,16 @@ await store.fetchTeachers()
 
 <template>
   <UContainer>
-    <div class="flex justify-between items-center mb-4">
+    <div>
       <h1>Welcome to the Teachers page:</h1>
 
       <NuxtLink to="/teachers/new">
         <UButton>Create Teacher</UButton>
       </NuxtLink>
     </div>
-
-    <div>
-      <TeacherCard
-        v-for="t in store.teachers"
-        :key="t.id"
-        :teacher="t"
-      />
+    
+    <div v-for="t in store.teachers">
+      <TeacherCard :key="t.id" :teacher="t"/>
     </div>
   </UContainer>
 </template>
